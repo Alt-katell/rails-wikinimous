@@ -1,0 +1,13 @@
+<div class="container">
+  <h1><%= @article.title %></h1>
+
+  <br>
+
+  <button class="btn btn-primary"><%= link_to "Edit this article", edit_article_path, :style =>"color: white;" %></button>
+
+  <br>
+
+  <p><%= @article.content %></p>
+
+  <p><%= link_to "Back to article list", articles_path %></p>
+</div>
